@@ -1,0 +1,19 @@
+{
+  "name": "front-end-project",
+  "version": "1.0.0",
+  "description": "Repo for Software Development Front-End course project",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lionbull/front-end-project.git"
+  },
+  "author": "Georgy Pokazeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lionbull/front-end-project/issues"
+  },
+  "homepage": "https://github.com/Lionbull/front-end-project#readme"
+}
