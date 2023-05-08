@@ -12,15 +12,15 @@ body {
     background: url("../../img/background.jpg") no-repeat center center/cover;
     background-attachment: fixed;
     background-size: cover; }
-  body:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: rgba(68, 68, 68, 0.9); }
+    body.bg-img:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgba(68, 68, 68, 0.9); }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -28,11 +28,12 @@ h1, h2, h3, h4, h5, h6 {
   h1.lg-heading, h2.lg-heading, h3.lg-heading, h4.lg-heading, h5.lg-heading, h6.lg-heading {
     font-size: 6rem;
     line-height: 1;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    padding: 0rem 0rem 0rem 3rem; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading, h4.sm-heading, h5.sm-heading, h6.sm-heading {
     font-size: 2rem;
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 1rem 0rem 3.5rem;
     background: rgba(94, 94, 94, 0.5); }
 
 a {
