@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Lionbull/front-end-project/issues"
   },
-  "homepage": "https://github.com/Lionbull/front-end-project#readme"
+  "homepage": "https://github.com/Lionbull/front-end-project#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
