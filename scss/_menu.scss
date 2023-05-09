@@ -1,4 +1,4 @@
-@import "./config";
+@import "config";
 
 .menu-btn {
     position: absolute;
@@ -12,5 +12,6 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
+        background: #fff;
     }
 }
