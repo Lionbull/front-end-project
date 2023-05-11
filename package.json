@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Lionbull/front-end-project/issues"
   },
-  "homepage": "https://github.com/Lionbull/georgy-pokazeev-cv",
+  "homepage": "https://github.com/Lionbull/front-end-project",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0"
