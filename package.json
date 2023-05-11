@@ -4,7 +4,8 @@
   "description": "Repo for Software Development Front-End course project",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,8 +16,9 @@
   "bugs": {
     "url": "https://github.com/Lionbull/front-end-project/issues"
   },
-  "homepage": "https://github.com/Lionbull/front-end-project#readme",
+  "homepage": "https://github.com/Lionbull/georgy-pokazeev-cv",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0"
   }
 }
