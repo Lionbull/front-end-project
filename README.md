@@ -6,3 +6,5 @@ Alternativelly you can jsut open the deloyed project.
 <br>
 Deployed project:
 https://lionbull.github.io/front-end-project/index.html
+<br>
+Demonstration video: https://youtu.be/fZHhZYzwfbE
