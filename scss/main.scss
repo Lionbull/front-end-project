@@ -124,6 +124,15 @@ main {
     border-bottom: $secondary-color 5px solid;
 }
 
+.link {
+    color: $secondary-color;
+
+    &:hover {
+        color: set-text-color(black);
+        @include easeOut;
+    }
+}
+
 // Work/projects
 .projects{
     display: grid;
